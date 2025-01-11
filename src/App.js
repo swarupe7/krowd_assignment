@@ -30,7 +30,8 @@ export default function App() {
         style={{
           padding: "5px",
           margin: "5px",
-          width: "200px",
+          width: "25%",
+          fonSize:"16px",
           marginRight: "10px",
         }}
       />
@@ -46,6 +47,7 @@ export default function App() {
           fontSize: "16px",
           cursor: "pointer",
           padding: "10px",
+          margin:'auto'
         }}
       >
         Add Item
@@ -61,6 +63,8 @@ export default function App() {
               border: "1px solid #008000",
               borderRadius: "5px",
               boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
+              width:"25%",
+              margin:'5px auto'
             }}
           >
             {item}
